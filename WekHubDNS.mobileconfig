@@ -84,27 +84,6 @@
 <string>comm-main.ess.apple.com</string>
 </array>
 </dict>
-<key>OnDemandRules</key>
-<array>
-<dict>
-<key>Action</key>
-<string>Connect</string>
-</dict>
-</array>
-<key>PayloadDisplayName</key>
-<string>Wek Hub | BackUp DNS</string>
-<key>PayloadIdentifier</key>
-<string>khoindvn.bio.link.profile</string>
-<key>PayloadOrganization</key>
-<string>Must use if one of the DNS is Down | Not Down at the min |</string>
-<key>PayloadType</key>
-<string>com.apple.dnsSettings.managed</string>
-<key>PayloadUUID</key>
-<string>khoindvn.bio.link</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-</dict>
-</array>
 <key>PayloadDescription</key>
 <string>Bug fix</string>
 <key>PayloadDisplayName</key>
