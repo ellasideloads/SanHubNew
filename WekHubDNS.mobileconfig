@@ -20,15 +20,43 @@
 </dict>
 </array>
 <key>PayloadDisplayName</key>
-<string>Wek Hub | Anti Revoke</string>
+<string>DNS 1 │ Wek Hub │ Blocks Revokes and Blacklist</string>
 <key>PayloadIdentifier</key>
 <string>vevrl9air2.cloudflare-gateway.com.profile</string>
 <key>PayloadOrganization</key>
-<string>Use Both to not get black listed | Wek Hub</string>
+<string>Make sure you have DNS 1 and 2 Enabled!</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
 <string>vevrl9air2.cloudflare-gateway.com</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerURL</key>
+<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
+<key>SupplementalMatchDomains</key>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+</dict>
+</array>
+<key>PayloadDisplayName</key>
+<string>DNS 2 │ Wek Hub │ Blocks Revokes and Blacklist</string>
+<key>PayloadIdentifier</key>
+<string>Nezus.link.profile</string>
+<key>PayloadOrganization</key>
+<string>Make sure you have DNS 1 and 2 Enabled!</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>beacons.ai/nezus</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict>
@@ -64,11 +92,11 @@
 </dict>
 </array>
 <key>PayloadDisplayName</key>
-<string>Wek Hub | Anti Blacklist</string>
+<string>Wek Hub | BackUp DNS</string>
 <key>PayloadIdentifier</key>
 <string>khoindvn.bio.link.profile</string>
 <key>PayloadOrganization</key>
-<string>Must use both to not get blacklisted | Wek Hub</string>
+<string>Must use if one of the DNS is Down [Not Down at the min]</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
