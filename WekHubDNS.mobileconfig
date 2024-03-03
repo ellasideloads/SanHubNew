@@ -96,7 +96,7 @@
 <key>PayloadIdentifier</key>
 <string>khoindvn.bio.link.profile</string>
 <key>PayloadOrganization</key>
-<string>Must use if one of the DNS is Down [Not Down at the min]</string>
+<string>Must use if one of the DNS is Down | Not Down at the min |</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
